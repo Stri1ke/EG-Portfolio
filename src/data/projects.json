@@ -1,0 +1,501 @@
+[
+  {
+    "id": "55cd96e6-2dd9-43b8-8d15-2ec2d08ae3ff",
+    "slug": "skins-baron",
+    "document": {
+      "title": {
+        "ru": "SKINS BARON",
+        "en": "SKINS BARON"
+      },
+      "description": {
+        "ru": "Игровой ивент · UI/UX и визуальный дизайн",
+        "en": "Game event · UI/UX & visual design"
+      },
+      "slug": "skins-baron",
+      "category": "ui",
+      "cover": "e7be92a8-2a86-46b1-b6ff-f13c31dd4377",
+      "coverAlt": "Container-default0-optimized-3",
+      "blocks": [
+        {
+          "id": "5de8e0c6-0284-4ac1-b48a-82df8e037e87",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "3aa2b658-c3b3-4e66-8465-fe76507ace61",
+              "alt": "eeeee-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "0fe0b935-be2e-4c1b-b44d-f4401cdce387",
+              "alt": "eee-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#0c0e0c",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "836d09f2-8270-426c-8c1b-42e68b9052e8",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "4a0e0671-b7ee-4b6a-90dd-87a8472e1c48",
+              "alt": "Animation_14.05-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "0dcab848-12d0-4def-bb38-8c6d454e1839",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "d0620ece-5197-467f-ba7c-bbefb3b7d6a1",
+              "alt": "Bg-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "20a9c256-122a-4814-a6c8-9d546c8e5a19",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "3fd34af0-6f9c-434c-8394-446d64664f87",
+              "alt": "frames_compressed",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "32c2e925-67cc-4017-b91c-8a053c9aff5e",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "56b41e83-b1a6-4a98-856d-1eee5e7b4b0c",
+              "alt": "Animation_2-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "bbb8d138-9a73-4070-8173-281a364591f7",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "6ae5a3e8-8963-40c4-bad4-228c1121dfd8",
+              "alt": "kk-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "7e9c9d56-7c20-4194-95bb-94581a47b863",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "2642a614-f59b-4684-aa38-82d9c186ec4c",
+              "alt": "ROWS-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "d591061b-7d06-4fee-941e-839473decfdf",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "925be9d9-ba5a-482f-a2da-1ea930d11e9c",
+              "alt": "ggg-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "503e07b4-2220-468a-8354-5464690e29ee",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "db93bf8c-66b9-4def-8779-f24a986abad7",
+              "alt": "jjj-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-0",
+    "slug": "verdant-inventory",
+    "document": {
+      "title": {
+        "ru": "Verdant / Inventory",
+        "en": "Verdant / Inventory"
+      },
+      "description": {
+        "ru": "Инвентарь и система экипировки",
+        "en": "Inventory & equipment system"
+      },
+      "slug": "verdant-inventory",
+      "category": "ui",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Verdant / Inventory",
+        "type": "ui",
+        "kind": "fantasy",
+        "number": "01",
+        "label": "RPG · INVENTORY",
+        "title": "EQUIPMENT",
+        "glyphs": ["✧", "◇", "⌁", "✦", "⊕", "△", "◇", "✧"],
+        "desc": [
+          "Инвентарь и система экипировки",
+          "Inventory & equipment system"
+        ]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-0",
+          "type": "text",
+          "text": {
+            "ru": "Инвентарь и система экипировки\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Inventory & equipment system\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-1",
+    "slug": "orbit-command",
+    "document": {
+      "title": {
+        "ru": "Orbit / Command",
+        "en": "Orbit / Command"
+      },
+      "description": {
+        "ru": "Интерфейс управления миссией",
+        "en": "Mission control interface"
+      },
+      "slug": "orbit-command",
+      "category": "ui",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Orbit / Command",
+        "type": "ui",
+        "kind": "space",
+        "number": "02",
+        "label": "SCI-FI · HUD",
+        "title": "MISSION CONTROL",
+        "glyphs": ["⌖", "◈", "⊙", "＋"],
+        "desc": ["Интерфейс управления миссией", "Mission control interface"]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-1",
+          "type": "text",
+          "text": {
+            "ru": "Интерфейс управления миссией\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Mission control interface\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-2",
+    "slug": "bloom-match-3",
+    "document": {
+      "title": {
+        "ru": "Bloom / Match-3",
+        "en": "Bloom / Match-3"
+      },
+      "description": {
+        "ru": "Мобильная игра и состояния экранов",
+        "en": "Mobile game & screen states"
+      },
+      "slug": "bloom-match-3",
+      "category": "ui",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Bloom / Match-3",
+        "type": "ui",
+        "kind": "casual",
+        "number": "03",
+        "label": "MOBILE · CASUAL",
+        "title": "LEVEL 024",
+        "glyphs": ["✿", "◆", "✦", "◆", "✿", "✦", "✦", "◆", "✿"],
+        "desc": [
+          "Мобильная игра и состояния экранов",
+          "Mobile game & screen states"
+        ]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-2",
+          "type": "text",
+          "text": {
+            "ru": "Мобильная игра и состояния экранов\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Mobile game & screen states\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-3",
+    "slug": "apex-garage",
+    "document": {
+      "title": {
+        "ru": "Apex / Garage",
+        "en": "Apex / Garage"
+      },
+      "description": {
+        "ru": "Гараж и навигация игрового меню",
+        "en": "Garage & game menu navigation"
+      },
+      "slug": "apex-garage",
+      "category": "ui",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Apex / Garage",
+        "type": "ui",
+        "kind": "racing",
+        "number": "04",
+        "label": "RACING · MENU",
+        "title": "PUSH THE LIMIT.",
+        "glyphs": [],
+        "desc": [
+          "Гараж и навигация игрового меню",
+          "Garage & game menu navigation"
+        ]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-3",
+          "type": "text",
+          "text": {
+            "ru": "Гараж и навигация игрового меню\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Garage & game menu navigation\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-4",
+    "slug": "play-identity",
+    "document": {
+      "title": {
+        "ru": "Play / Identity",
+        "en": "Play / Identity"
+      },
+      "description": {
+        "ru": "Экспериментальная игровая айдентика",
+        "en": "Experimental gaming identity"
+      },
+      "slug": "play-identity",
+      "category": "graphic",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Play / Identity",
+        "type": "graphic",
+        "kind": "graphic",
+        "number": "05",
+        "label": "GRAPHIC · IDENTITY",
+        "title": "PLAY",
+        "glyphs": [],
+        "desc": [
+          "Экспериментальная игровая айдентика",
+          "Experimental gaming identity"
+        ]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-4",
+          "type": "text",
+          "text": {
+            "ru": "Экспериментальная игровая айдентика\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Experimental gaming identity\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-5",
+    "slug": "prism-ui kit",
+    "document": {
+      "title": {
+        "ru": "Prism / UI Kit",
+        "en": "Prism / UI Kit"
+      },
+      "description": {
+        "ru": "Компоненты и визуальная система",
+        "en": "Components & visual system"
+      },
+      "slug": "prism-ui kit",
+      "category": "ui",
+      "cover": "",
+      "coverAlt": "",
+      "demo": {
+        "name": "Prism / UI Kit",
+        "type": "ui",
+        "kind": "system",
+        "number": "06",
+        "label": "SYSTEM · COMPONENTS",
+        "title": "ONE SYSTEM. MANY WORLDS.",
+        "glyphs": ["◈", "＋", "⌘", "✦", "◉", "△", "◇", "⊙", "⌖", "↗"],
+        "desc": [
+          "Компоненты и визуальная система",
+          "Components & visual system"
+        ]
+      },
+      "blocks": [
+        {
+          "id": "demo-intro-5",
+          "type": "text",
+          "text": {
+            "ru": "Компоненты и визуальная система\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "en": "Components & visual system\n\nDemo project. Add your work in the editor."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
+    }
+  }
+]
