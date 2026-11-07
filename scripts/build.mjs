@@ -56,7 +56,7 @@ for (const page of pages) {
   const html = `<!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escape(title)}</title><meta name="description" content="${escape(description)}">
-<link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="${root}favicon.svg?v=eg2" type="image/svg+xml">
 <link rel="stylesheet" href="${root}styles/global.css">
 ${!slug ? `<link rel="stylesheet" href="${root}styles/portfolio.css">` : ""}
 <script type="module" src="${root}${entry}"></script></head>
