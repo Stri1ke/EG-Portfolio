@@ -239,21 +239,8 @@
       },
       "slug": "verdant-inventory",
       "category": "ui",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Verdant / Inventory",
-        "type": "ui",
-        "kind": "fantasy",
-        "number": "01",
-        "label": "RPG · INVENTORY",
-        "title": "EQUIPMENT",
-        "glyphs": ["✧", "◇", "⌁", "✦", "⊕", "△", "◇", "✧"],
-        "desc": [
-          "Инвентарь и система экипировки",
-          "Inventory & equipment system"
-        ]
-      },
+      "cover": "f61cc5dc-b0da-4f33-880d-24a3ffd342cf",
+      "coverAlt": "Container-default1-optimized",
       "blocks": [
         {
           "id": "demo-intro-0",
@@ -267,8 +254,176 @@
           "background": "#101311",
           "width": "wide",
           "padding": 40
+        },
+        {
+          "id": "a988244c-f466-4983-a04c-4bff45973873",
+          "type": "text",
+          "text": {
+            "ru": "## Проверка редактора\n**Текст** и изображения в одном кейсе.",
+            "en": ""
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "3cd82db9-418a-4cd1-ae5e-6c21ff39bbfc",
+          "type": "divider",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "171c6f6a-2ecc-4c82-b533-5d70190785ec",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "587f041d-e3a8-426b-b324-b3b7eec3b1f9",
+              "alt": "1231285-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "9a601b7b-058a-467a-a441-0e1239bd0841",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "5890277d-e63d-4892-a588-052dd20d91fc",
+              "alt": "Все шаги-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "886e70cc-4e43-4610-ab9d-4f8df84bab1c",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "e41c508a-4fda-41e0-8564-c0c7736caaa4",
+              "alt": "Event-Bar-1-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "d697a687-6b68-41ef-98a1-70a6ac8ddd87",
+              "alt": "Event-Bar-2-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "043b21a5-a25f-404e-9d5d-92ac690bb87b",
+              "alt": "Event-Bar-3-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "b18f03f0-c25e-4d50-8d16-e05fd8f362b5",
+              "alt": "Event-Bar-4-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "aa6d14f6-823e-4c5a-8d32-ce64f4b3d478",
+              "alt": "Event-Bar-optimized",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "a132e0aa-cdc4-4e0e-951a-9b6a6fb3e6eb",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "35a8ab08-11d5-45f5-bc6e-aefa16d333d4",
+              "alt": "2",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
         }
-      ]
+      ],
+      "demo": {
+        "name": "Verdant / Inventory",
+        "type": "ui",
+        "kind": "fantasy",
+        "number": "01",
+        "label": "RPG · INVENTORY",
+        "title": "EQUIPMENT",
+        "glyphs": [
+          "✧",
+          "◇",
+          "⌁",
+          "✦",
+          "⊕",
+          "△",
+          "◇",
+          "✧"
+        ],
+        "desc": [
+          "Инвентарь и система экипировки",
+          "Inventory & equipment system"
+        ]
+      }
     }
   },
   {
@@ -276,7 +431,7 @@
     "slug": "orbit-command",
     "document": {
       "title": {
-        "ru": "Orbit / Command",
+        "ru": "Tower Game",
         "en": "Orbit / Command"
       },
       "description": {
@@ -285,18 +440,8 @@
       },
       "slug": "orbit-command",
       "category": "ui",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Orbit / Command",
-        "type": "ui",
-        "kind": "space",
-        "number": "02",
-        "label": "SCI-FI · HUD",
-        "title": "MISSION CONTROL",
-        "glyphs": ["⌖", "◈", "⊙", "＋"],
-        "desc": ["Интерфейс управления миссией", "Mission control interface"]
-      },
+      "cover": "5af8045d-ba38-4eb2-b597-5add8231af8c",
+      "coverAlt": "Container-ho3ver",
       "blocks": [
         {
           "id": "demo-intro-1",
@@ -311,7 +456,25 @@
           "width": "wide",
           "padding": 40
         }
-      ]
+      ],
+      "demo": {
+        "name": "Orbit / Command",
+        "type": "ui",
+        "kind": "space",
+        "number": "02",
+        "label": "SCI-FI · HUD",
+        "title": "MISSION CONTROL",
+        "glyphs": [
+          "⌖",
+          "◈",
+          "⊙",
+          "＋"
+        ],
+        "desc": [
+          "Интерфейс управления миссией",
+          "Mission control interface"
+        ]
+      }
     }
   },
   {
@@ -337,7 +500,17 @@
         "number": "03",
         "label": "MOBILE · CASUAL",
         "title": "LEVEL 024",
-        "glyphs": ["✿", "◆", "✦", "◆", "✿", "✦", "✦", "◆", "✿"],
+        "glyphs": [
+          "✿",
+          "◆",
+          "✦",
+          "◆",
+          "✿",
+          "✦",
+          "✦",
+          "◆",
+          "✿"
+        ],
         "desc": [
           "Мобильная игра и состояния экранов",
           "Mobile game & screen states"
@@ -475,7 +648,18 @@
         "number": "06",
         "label": "SYSTEM · COMPONENTS",
         "title": "ONE SYSTEM. MANY WORLDS.",
-        "glyphs": ["◈", "＋", "⌘", "✦", "◉", "△", "◇", "⊙", "⌖", "↗"],
+        "glyphs": [
+          "◈",
+          "＋",
+          "⌘",
+          "✦",
+          "◉",
+          "△",
+          "◇",
+          "⊙",
+          "⌖",
+          "↗"
+        ],
         "desc": [
           "Компоненты и визуальная система",
           "Components & visual system"
