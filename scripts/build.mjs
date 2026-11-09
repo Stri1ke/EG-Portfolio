@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { build } from "vite";
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -25,6 +26,10 @@ await cp("public", "docs", { recursive: true });
 await mkdir("docs/styles", { recursive: true });
 await cp("src/styles/global.css", "docs/styles/global.css");
 await cp("src/styles/portfolio.css", "docs/styles/portfolio.css");
+const portfolioCssVersion = createHash("sha256")
+  .update(await readFile("docs/styles/portfolio.css"))
+  .digest("hex")
+  .slice(0, 12);
 const escape = (value) =>
   String(value).replace(
     /[&<>"']/g,
@@ -58,7 +63,7 @@ for (const page of pages) {
 <title>${escape(title)}</title><meta name="description" content="${escape(description)}">
 <link rel="icon" href="${root}favicon.svg?v=eg2" type="image/svg+xml">
 <link rel="stylesheet" href="${root}styles/global.css">
-${!slug ? `<link rel="stylesheet" href="${root}styles/portfolio.css">` : ""}
+${!slug ? `<link rel="stylesheet" href="${root}styles/portfolio.css?v=${portfolioCssVersion}">` : ""}
 <script type="module" src="${root}${entry}"></script></head>
 <body><div id="root" data-slug="${escape(slug)}" data-root="${root}">${render({ slug, root })}</div></body></html>`;
   await mkdir(page.directory, { recursive: true });
