@@ -17,6 +17,19 @@
       "coverAlt": "Container-default0-optimized-3",
       "blocks": [
         {
+          "id": "7fc40ce2-bdaa-4c59-b3b8-7ef691bae94d",
+          "type": "text",
+          "text": {
+            "ru": "EN\nThe UI/UX for Skins Baron, a CS2-themed event, was designed to help players see their progress, know what to do next, and spot rewards ready to claim. The layout follows each activity’s rules: a grid makes progress across the stamp collection easy to compare, standalone cards let players tackle daily quests in any order, and a progress track shows which weekly quest is active and which are locked. The collection card has four variants, each with default and hover states: not started, in progress, reward ready to claim, and reward claimed.\n\nRU\nИнтерфейс ивента Skins Baron в тематике CS2 спроектирован так, чтобы игрок сразу видел свой прогресс, следующий шаг и доступные награды. Структура экранов следует за логикой заданий. Сетка коллекции помогает сравнить прогресс по штампам, отдельные карточки позволяют выполнять ежедневные задания в любом порядке, а шкала показывает текущий и заблокированные этапы еженедельной цепочки. Для карточки коллекции проработаны четыре варианта — до начала, в процессе, награда доступна и награда получена. У каждого варианта есть обычное состояние и состояние при наведении.",
+            "en": ""
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
           "id": "5de8e0c6-0284-4ac1-b48a-82df8e037e87",
           "type": "gallery",
           "text": {
@@ -230,7 +243,7 @@
     "slug": "verdant-inventory",
     "document": {
       "title": {
-        "ru": "Verdant / Inventory",
+        "ru": "Сокровищницы Рошана",
         "en": "Verdant / Inventory"
       },
       "description": {
@@ -246,7 +259,7 @@
           "id": "demo-intro-0",
           "type": "text",
           "text": {
-            "ru": "Инвентарь и система экипировки\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
+            "ru": "EN\nThe UI for Roshan’s Treasury was designed to show players how far they’ve come, how much XP they need for the next step, and when a case is ready to open. An isometric map shows the full route, while a compact progress bar keeps the next action visible. The bar has variants for signing in, earning XP, opening a case, and completing the quest. A separate reward grid brings together collected skins and unopened cases.\n\nRU\nИнтерфейс «Сокровищницы Рошана» помогает игроку понять, сколько шагов он прошёл, сколько опыта нужно до следующего и когда можно открыть кейс. Изометрическая карта показывает весь маршрут, а компактная панель прогресса — текущее состояние и доступное действие. Для панели проработаны варианты для авторизации, накопления опыта, открытия кейса и завершения квеста. В отдельной сетке наград собраны полученные скины и ещё не открытые кейсы.",
             "en": "Inventory & equipment system\n\nDemo project. Add your work in the editor."
           },
           "images": [],
@@ -475,211 +488,6 @@
           "Mission control interface"
         ]
       }
-    }
-  },
-  {
-    "id": "demo-2",
-    "slug": "bloom-match-3",
-    "document": {
-      "title": {
-        "ru": "Bloom / Match-3",
-        "en": "Bloom / Match-3"
-      },
-      "description": {
-        "ru": "Мобильная игра и состояния экранов",
-        "en": "Mobile game & screen states"
-      },
-      "slug": "bloom-match-3",
-      "category": "ui",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Bloom / Match-3",
-        "type": "ui",
-        "kind": "casual",
-        "number": "03",
-        "label": "MOBILE · CASUAL",
-        "title": "LEVEL 024",
-        "glyphs": [
-          "✿",
-          "◆",
-          "✦",
-          "◆",
-          "✿",
-          "✦",
-          "✦",
-          "◆",
-          "✿"
-        ],
-        "desc": [
-          "Мобильная игра и состояния экранов",
-          "Mobile game & screen states"
-        ]
-      },
-      "blocks": [
-        {
-          "id": "demo-intro-2",
-          "type": "text",
-          "text": {
-            "ru": "Мобильная игра и состояния экранов\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
-            "en": "Mobile game & screen states\n\nDemo project. Add your work in the editor."
-          },
-          "images": [],
-          "url": "",
-          "background": "#101311",
-          "width": "wide",
-          "padding": 40
-        }
-      ]
-    }
-  },
-  {
-    "id": "demo-3",
-    "slug": "apex-garage",
-    "document": {
-      "title": {
-        "ru": "Apex / Garage",
-        "en": "Apex / Garage"
-      },
-      "description": {
-        "ru": "Гараж и навигация игрового меню",
-        "en": "Garage & game menu navigation"
-      },
-      "slug": "apex-garage",
-      "category": "ui",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Apex / Garage",
-        "type": "ui",
-        "kind": "racing",
-        "number": "04",
-        "label": "RACING · MENU",
-        "title": "PUSH THE LIMIT.",
-        "glyphs": [],
-        "desc": [
-          "Гараж и навигация игрового меню",
-          "Garage & game menu navigation"
-        ]
-      },
-      "blocks": [
-        {
-          "id": "demo-intro-3",
-          "type": "text",
-          "text": {
-            "ru": "Гараж и навигация игрового меню\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
-            "en": "Garage & game menu navigation\n\nDemo project. Add your work in the editor."
-          },
-          "images": [],
-          "url": "",
-          "background": "#101311",
-          "width": "wide",
-          "padding": 40
-        }
-      ]
-    }
-  },
-  {
-    "id": "demo-4",
-    "slug": "play-identity",
-    "document": {
-      "title": {
-        "ru": "Play / Identity",
-        "en": "Play / Identity"
-      },
-      "description": {
-        "ru": "Экспериментальная игровая айдентика",
-        "en": "Experimental gaming identity"
-      },
-      "slug": "play-identity",
-      "category": "graphic",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Play / Identity",
-        "type": "graphic",
-        "kind": "graphic",
-        "number": "05",
-        "label": "GRAPHIC · IDENTITY",
-        "title": "PLAY",
-        "glyphs": [],
-        "desc": [
-          "Экспериментальная игровая айдентика",
-          "Experimental gaming identity"
-        ]
-      },
-      "blocks": [
-        {
-          "id": "demo-intro-4",
-          "type": "text",
-          "text": {
-            "ru": "Экспериментальная игровая айдентика\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
-            "en": "Experimental gaming identity\n\nDemo project. Add your work in the editor."
-          },
-          "images": [],
-          "url": "",
-          "background": "#101311",
-          "width": "wide",
-          "padding": 40
-        }
-      ]
-    }
-  },
-  {
-    "id": "demo-5",
-    "slug": "prism-ui kit",
-    "document": {
-      "title": {
-        "ru": "Prism / UI Kit",
-        "en": "Prism / UI Kit"
-      },
-      "description": {
-        "ru": "Компоненты и визуальная система",
-        "en": "Components & visual system"
-      },
-      "slug": "prism-ui kit",
-      "category": "ui",
-      "cover": "",
-      "coverAlt": "",
-      "demo": {
-        "name": "Prism / UI Kit",
-        "type": "ui",
-        "kind": "system",
-        "number": "06",
-        "label": "SYSTEM · COMPONENTS",
-        "title": "ONE SYSTEM. MANY WORLDS.",
-        "glyphs": [
-          "◈",
-          "＋",
-          "⌘",
-          "✦",
-          "◉",
-          "△",
-          "◇",
-          "⊙",
-          "⌖",
-          "↗"
-        ],
-        "desc": [
-          "Компоненты и визуальная система",
-          "Components & visual system"
-        ]
-      },
-      "blocks": [
-        {
-          "id": "demo-intro-5",
-          "type": "text",
-          "text": {
-            "ru": "Компоненты и визуальная система\n\nДемонстрационный проект. Добавь свои материалы через редактор.",
-            "en": "Components & visual system\n\nDemo project. Add your work in the editor."
-          },
-          "images": [],
-          "url": "",
-          "background": "#101311",
-          "width": "wide",
-          "padding": 40
-        }
-      ]
     }
   }
 ]
