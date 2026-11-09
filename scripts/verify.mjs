@@ -20,8 +20,10 @@ async function walk(dir) {
   ).flat();
 }
 const files = await walk(root);
+const legacyTowerPage = path.join(root, "projects", "orbit-command", "index.html");
+assert(files.includes(legacyTowerPage));
 assert.equal(
-  files.filter((file) => file.endsWith(".html")).length,
+  files.filter((file) => file.endsWith(".html") && file !== legacyTowerPage).length,
   projects.length + 1,
 );
 assert.equal((await stat(path.join(root, ".nojekyll"))).size, 0);
