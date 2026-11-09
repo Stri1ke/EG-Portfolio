@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": {
+      "ru": "ПОРТФОЛИО",
+      "en": "PORTFOLIO"
+    },
+    "name": {
+      "ru": "ЕГОР",
+      "en": "EGOR"
+    },
+    "role": "Game UI/UX Designer",
+    "description": {
+      "ru": "От логики взаимодействия до визуального характера игры. С опытом в графическом дизайне.",
+      "en": "From player flows to the visual character of a game. With a background in graphic design."
+    },
+    "explore": {
+      "ru": "Смотреть работы",
+      "en": "Explore work"
+    },
+    "contact": {
+      "ru": "Связаться ↗",
+      "en": "Get in touch ↗"
+    },
+    "disciplines": "UI SYSTEMS · PLAYER FLOWS · VISUAL DESIGN",
+    "scroll": {
+      "ru": "ЛИСТАЙ ВНИЗ ↓",
+      "en": "SCROLL TO EXPLORE ↓"
+    },
+    "coordinate": "[ INTERFACE / HUMAN / PLAY ]"
+  },
+  "work": {
+    "heading": {
+      "ru": "Избранные работы",
+      "en": "Selected work"
+    },
+    "description": {
+      "ru": "Игровые интерфейсы, системы и визуальные эксперименты.",
+      "en": "Game interfaces, systems and visual experiments."
+    }
+  },
+  "about": {
+    "heading": {
+      "ru": "Дизайн, в который играют.",
+      "en": "Design you can play."
+    },
+    "description": {
+      "ru": "Специализируюсь на UI/UX для игр. Соединяю понятные сценарии, выразительные интерфейсы и опыт в графическом дизайне.",
+      "en": "I focus on UI/UX for games, combining clear player flows, expressive interfaces and a background in graphic design."
+    },
+    "skills": [
+      "Game UI/UX",
+      "Visual systems",
+      "Graphic design"
+    ]
+  },
+  "experience": {
+    "heading": {
+      "ru": "Опыт в игровой индустрии.",
+      "en": "Experience in games."
+    },
+    "description": {
+      "ru": "Компании и игры, над которыми я работал.",
+      "en": "Studios and games I’ve worked on."
+    },
+    "studios": [
+      {
+        "name": "Lesta Games",
+        "role": "Graphic Designer / UI Designer",
+        "games": [
+          "World of Tanks",
+          "World of Warships",
+          "Tanks Blitz"
+        ]
+      },
+      {
+        "name": "RedBoon",
+        "role": "UX/UI Designer",
+        "games": [
+          "Knock on the Coffin Lid"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": {
+      "ru": "Контакты",
+      "en": "Contact"
+    },
+    "email": "e.siriukin@gmail.com",
+    "telegram": "@jwinsel"
+  },
+  "footer": {
+    "signature": "EGOR / GAME UI/UX",
+    "year": "2026"
+  }
+}

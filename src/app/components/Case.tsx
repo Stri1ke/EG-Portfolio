@@ -34,7 +34,6 @@ export default function Case({
       <div className="case-intro">
         <span className="kicker">
           {document.category === "ui" ? "GAME UI/UX" : "GRAPHIC DESIGN"}
-          {document.demo ? " / DEMO" : ""}
         </span>
         <h1>{translate(document.title, language)}</h1>
         <p>{translate(document.description, language)}</p>
@@ -44,7 +43,6 @@ export default function Case({
           <span>{document.demo.label}</span>
           <h2>{document.demo.title}</h2>
           <div>{document.demo.glyphs.join("　")}</div>
-          <small>CONCEPT PLACEHOLDER / DEMO</small>
         </div>
       ) : null}
       <CaseImageGallery
@@ -128,7 +126,6 @@ export default function Case({
                   <span>
                     {translate(project.document.description, language)}
                   </span>
-                  <span>{project.document.demo ? "DEMO" : "CASE STUDY"}</span>
                 </div>
               </a>
             ))}

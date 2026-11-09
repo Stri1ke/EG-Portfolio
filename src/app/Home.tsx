@@ -41,7 +41,7 @@ export default function Home() {
         <About language={language} />
         <Experience language={language} />
         <Contact language={language} />
-        <Footer language={language} />
+        <Footer />
       </main>
       <ResumeDialog language={language} dialogRef={dialogRef} />
     </>

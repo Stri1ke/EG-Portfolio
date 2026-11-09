@@ -119,10 +119,14 @@ img {
 .case-nav a:hover {
   color: var(--portfolio-accent);
 }
+.case-page {
+  --case-gutter: 24px;
+}
 .case-intro {
-  max-width: 1320px;
+  width: calc(100% - 2 * var(--case-gutter));
+  max-width: 1200px;
   margin: auto;
-  padding: 80px 6% 55px;
+  padding: 80px 0 55px;
 }
 .case-intro h1 {
   font-family: Handjet;
@@ -156,6 +160,7 @@ img {
 }
 .width-normal {
   max-width: 760px;
+  margin-left: max(0px, calc((100% - 1200px) / 2));
 }
 .width-wide {
   max-width: 1200px;
@@ -425,8 +430,11 @@ img {
   color: #c2aff0;
 }
 @media (max-width: 720px) {
+  .case-page {
+    --case-gutter: 20px;
+  }
   .case-intro {
-    padding: 50px 24px 30px;
+    padding: 50px 0 30px;
   }
   .case-intro h1 {
     font-size: 54px;

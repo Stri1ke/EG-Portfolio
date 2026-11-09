@@ -1,14 +1,15 @@
 /**
  * ТЕКСТЫ ГЛАВНОЙ СТРАНИЦЫ — начинай редактирование сайта с этого файла.
  * ru — русский текст, en — английский. Меняй слова внутри кавычек.
- * Разметка и поведение находятся в app/components/home, оформление — в src/styles/portfolio.css.
+ * Разметка и поведение находятся в app/components/home, оформление — в public/portfolio.css.
  */
+import home from "../data/home.json";
 import type { Localized } from "../lib/model";
 export type Language = "ru" | "en";
 export const translate = (text: Localized, language: Language): string =>
   text[language] || text.ru;
 
-export const siteContent = {
+const defaults = {
   // metadata.title — надпись на вкладке браузера. На самом первом экране она не выводится.
   metadata: {
     title: "Egor — Game UI / UX Designer",
@@ -25,7 +26,7 @@ export const siteContent = {
     resume: "CV",
   },
   hero: {
-    eyebrow: { ru: "ПОРТФОЛИО / ПРОТОТИП 01", en: "PORTFOLIO / PROTOTYPE 01" },
+    eyebrow: { ru: "ПОРТФОЛИО", en: "PORTFOLIO" },
     name: { ru: "ЕГОР", en: "EGOR" },
     // Это видимая специализация под именем. Меняй её здесь, а не в metadata.title.
     role: "Game UI/UX Designer",
@@ -56,10 +57,6 @@ export const siteContent = {
       { value: "ui", label: { ru: "Game UI/UX", en: "Game UI/UX" } },
       { value: "graphic", label: { ru: "Графика", en: "Graphic" } },
     ],
-    demoNote: {
-      ru: "Демонстрационные макеты — показывают сетку и взаимодействия. Здесь будут твои проекты.",
-      en: "Demo layouts to explore the grid and interactions. Your projects will go here.",
-    },
     loadError: {
       ru: "Не удалось загрузить проекты.",
       en: "Could not load projects.",
@@ -99,24 +96,14 @@ export const siteContent = {
     ],
   },
   contact: {
-    index: "04 / NEXT LEVEL",
-    // \n означает перенос строки в заголовке.
-    heading: {
-      ru: "Давай создадим\nчто-то игровое.",
-      en: "Let’s make\nsomething playable.",
-    },
-    description: {
-      ru: "Здесь появятся твоя почта, ссылки и резюме.",
-      en: "Your email, social links and résumé will go here.",
-    },
+    index: "04 / CONTACT",
+    heading: { ru: "Контакты", en: "Contact" },
+    email: "e.siriukin@gmail.com",
+    telegram: "@jwinsel",
     backToTop: { ru: "Вернуться наверх ↑", en: "Back to top ↑" },
   },
   footer: {
     signature: "EGOR / GAME UI/UX",
-    status: {
-      ru: "ПРОТОТИП · КОНТЕНТ ДЛЯ ПРИМЕРА",
-      en: "PROTOTYPE · DEMO CONTENT",
-    },
     year: "2026",
   },
   resume: {
@@ -128,4 +115,14 @@ export const siteContent = {
     },
     close: { ru: "Закрыть", en: "Close" },
   },
+};
+
+export const siteContent = {
+  ...defaults,
+  hero: { ...defaults.hero, ...home.hero },
+  work: { ...defaults.work, ...home.work },
+  about: { ...defaults.about, ...home.about },
+  experience: { ...defaults.experience, ...home.experience },
+  contact: { ...defaults.contact, ...home.contact },
+  footer: { ...defaults.footer, ...home.footer },
 };

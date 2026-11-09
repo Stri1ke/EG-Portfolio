@@ -69,19 +69,21 @@ export function Contact({ language }: { language: Language }) {
     <section id="contact" className="contact">
       <span className="index">{content.index}</span>
       <h2>{translate(content.heading, language)}</h2>
-      <p>{translate(content.description, language)}</p>
+      <ul className="contact-links">
+        <li><a href={"mailto:" + content.email}>{content.email}</a></li>
+        <li><a href={"https://t.me/" + content.telegram.replace(/^@/, "")}>{content.telegram}</a></li>
+      </ul>
       <a className="text-link" href="#home">
         {translate(content.backToTop, language)}
       </a>
     </section>
   );
 }
-export function Footer({ language }: { language: Language }) {
+export function Footer() {
   const content = siteContent.footer;
   return (
     <footer>
       <span>{content.signature}</span>
-      <span>{translate(content.status, language)}</span>
       <span>{content.year}</span>
     </footer>
   );

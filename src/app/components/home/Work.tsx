@@ -38,13 +38,6 @@ export function Work({ language }: { language: Language }) {
           ))}
         </div>
       </div>
-      <div
-        className="demo-note"
-        hidden={!projects.some((project) => project.document.demo)}
-      >
-        <span>ⓘ</span>
-        <span>{translate(content.demoNote, language)}</span>
-      </div>
       <div className="project-grid" id="projects">
         {projects.map((project) => {
           const document = project.document;
@@ -80,7 +73,6 @@ export function Work({ language }: { language: Language }) {
               </h3>
               <div className="project-meta">
                 <span>{translate(document.description, language)}</span>
-                <span>{document.demo ? "DEMO" : "CASE STUDY"}</span>
               </div>
             </a>
           );

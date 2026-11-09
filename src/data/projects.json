@@ -20,8 +20,8 @@
           "id": "7fc40ce2-bdaa-4c59-b3b8-7ef691bae94d",
           "type": "text",
           "text": {
-            "ru": "EN\nThe UI/UX for Skins Baron, a CS2-themed event, was designed to help players see their progress, know what to do next, and spot rewards ready to claim. The layout follows each activity’s rules: a grid makes progress across the stamp collection easy to compare, standalone cards let players tackle daily quests in any order, and a progress track shows which weekly quest is active and which are locked. The collection card has four variants, each with default and hover states: not started, in progress, reward ready to claim, and reward claimed.\n\nRU\nИнтерфейс ивента Skins Baron в тематике CS2 спроектирован так, чтобы игрок сразу видел свой прогресс, следующий шаг и доступные награды. Структура экранов следует за логикой заданий. Сетка коллекции помогает сравнить прогресс по штампам, отдельные карточки позволяют выполнять ежедневные задания в любом порядке, а шкала показывает текущий и заблокированные этапы еженедельной цепочки. Для карточки коллекции проработаны четыре варианта — до начала, в процессе, награда доступна и награда получена. У каждого варианта есть обычное состояние и состояние при наведении.",
-            "en": ""
+            "ru": "Интерфейс ивента Skins Baron в тематике CS2 спроектирован так, чтобы игрок сразу видел свой прогресс, следующий шаг и доступные награды. Структура экранов следует за логикой заданий. Сетка коллекции помогает сравнить прогресс по штампам, отдельные карточки позволяют выполнять ежедневные задания в любом порядке, а шкала показывает текущий и заблокированные этапы еженедельной цепочки. Для карточки коллекции проработаны четыре варианта — до начала, в процессе, награда доступна и награда получена. У каждого варианта есть обычное состояние и состояние при наведении.",
+            "en": "The UI/UX for Skins Baron, a CS2-themed event, was designed to help players see their progress, know what to do next, and spot rewards ready to claim. The layout follows each activity’s rules: a grid makes progress across the stamp collection easy to compare, standalone cards let players tackle daily quests in any order, and a progress track shows which weekly quest is active and which are locked. The collection card has four variants, each with default and hover states: not started, in progress, reward ready to claim, and reward claimed."
           },
           "images": [],
           "url": "",
@@ -243,12 +243,12 @@
     "slug": "verdant-inventory",
     "document": {
       "title": {
-        "ru": "Сокровищницы Рошана",
-        "en": "Verdant / Inventory"
+        "ru": "Сокровищница Рошана",
+        "en": "Roshan's Treasury"
       },
       "description": {
-        "ru": "Инвентарь и система экипировки",
-        "en": "Inventory & equipment system"
+        "ru": "Интерфейс для ивента",
+        "en": "Event design"
       },
       "slug": "verdant-inventory",
       "category": "ui",
@@ -259,8 +259,8 @@
           "id": "demo-intro-0",
           "type": "text",
           "text": {
-            "ru": "EN\nThe UI for Roshan’s Treasury was designed to show players how far they’ve come, how much XP they need for the next step, and when a case is ready to open. An isometric map shows the full route, while a compact progress bar keeps the next action visible. The bar has variants for signing in, earning XP, opening a case, and completing the quest. A separate reward grid brings together collected skins and unopened cases.\n\nRU\nИнтерфейс «Сокровищницы Рошана» помогает игроку понять, сколько шагов он прошёл, сколько опыта нужно до следующего и когда можно открыть кейс. Изометрическая карта показывает весь маршрут, а компактная панель прогресса — текущее состояние и доступное действие. Для панели проработаны варианты для авторизации, накопления опыта, открытия кейса и завершения квеста. В отдельной сетке наград собраны полученные скины и ещё не открытые кейсы.",
-            "en": "Inventory & equipment system\n\nDemo project. Add your work in the editor."
+            "ru": "Интерфейс «Сокровищницы Рошана» помогает игроку понять, сколько шагов он прошёл, сколько опыта нужно до следующего и когда можно открыть кейс. Изометрическая карта показывает весь маршрут, а компактная панель прогресса — текущее состояние и доступное действие. Для панели проработаны варианты для авторизации, накопления опыта, открытия кейса и завершения квеста. В отдельной сетке наград собраны полученные скины и ещё не открытые кейсы.",
+            "en": "The UI for Roshan’s Treasury was designed to show players how far they’ve come, how much XP they need for the next step, and when a case is ready to open. An isometric map shows the full route, while a compact progress bar keeps the next action visible. The bar has variants for signing in, earning XP, opening a case, and completing the quest. A separate reward grid brings together collected skins and unopened cases."
           },
           "images": [],
           "url": "",
@@ -432,11 +432,11 @@
     "document": {
       "title": {
         "ru": "Tower Game",
-        "en": "Orbit / Command"
+        "en": "Tower Game"
       },
       "description": {
-        "ru": "Интерфейс управления миссией",
-        "en": "Mission control interface"
+        "ru": "Интерфейс для игры Tower",
+        "en": "UI for Tower game"
       },
       "slug": "tower-game",
       "category": "ui",
@@ -447,8 +447,8 @@
           "id": "demo-intro-1",
           "type": "text",
           "text": {
-            "ru": "EN\nA game interface and visual identity were designed for Tower Game, with a focus on making the board easy to scan and giving the game a recognizable look. The interface is built around a vertical grid, with blue tiles defining the play area and yellow accents drawing attention to winnings and highlighted tiles. The key visual pairs a bold, riveted wordmark with a stylized bird mascot in tactical gear. The dark palette connects the interface and the key visual, while the yellow accents give both a clear focal point.\n\nRU\nДля Tower Game разработаны игровой интерфейс и визуальный стиль с акцентом на читаемость игрового поля и узнаваемость проекта. В основе интерфейса — вертикальная сетка, где синие ячейки формируют игровое поле, а жёлтые акценты выделяют выигрыш и отдельные клетки. Ключевой визуал объединяет массивный логотип с заклёпками и стилизованного персонажа-птицу в тактической экипировке. Тёмная палитра связывает интерфейс и ключевой визуал, а жёлтые акценты выделяют главное в каждом из них.",
-            "en": "Mission control interface\n\nDemo project. Add your work in the editor."
+            "ru": "Для Tower Game разработаны игровой интерфейс и визуальный стиль с акцентом на читаемость игрового поля и узнаваемость проекта. В основе интерфейса — вертикальная сетка, где синие ячейки формируют игровое поле, а жёлтые акценты выделяют выигрыш и отдельные клетки. Ключевой визуал объединяет массивный логотип с заклёпками и стилизованного персонажа-птицу в тактической экипировке. Тёмная палитра связывает интерфейс и ключевой визуал, а жёлтые акценты выделяют главное в каждом из них.",
+            "en": "A game interface and visual identity were designed for Tower Game, with a focus on making the board easy to scan and giving the game a recognizable look. The interface is built around a vertical grid, with blue tiles defining the play area and yellow accents drawing attention to winnings and highlighted tiles. The key visual pairs a bold, riveted wordmark with a stylized bird mascot in tactical gear. The dark palette connects the interface and the key visual, while the yellow accents give both a clear focal point.\n"
           },
           "images": [],
           "url": "",
@@ -476,7 +476,7 @@
           "url": "",
           "background": "#101311",
           "width": "wide",
-          "padding": 40
+          "padding": 0
         },
         {
           "id": "00ca271e-37b7-441f-af50-ef270fb11403",
@@ -487,8 +487,8 @@
           },
           "images": [
             {
-              "id": "2b721db2-31a0-42c3-9fbb-c13763967a9e",
-              "alt": "jj",
+              "id": "484239fd-f20f-4620-bb82-ece40a58ba93",
+              "alt": "1",
               "caption": {
                 "ru": "",
                 "en": ""
@@ -498,7 +498,7 @@
           "url": "",
           "background": "#101311",
           "width": "wide",
-          "padding": 40
+          "padding": 0
         },
         {
           "id": "cb4a4f84-a976-48cc-aed8-8fbf9e4d62a4",
@@ -520,7 +520,7 @@
           "url": "",
           "background": "#101311",
           "width": "wide",
-          "padding": 40
+          "padding": 0
         }
       ],
       "demo": {
@@ -541,6 +541,48 @@
           "Mission control interface"
         ]
       }
+    }
+  },
+  {
+    "id": "d69e989f-0f5d-4dcc-8623-91f2ebf58f44",
+    "slug": "project-14810109",
+    "document": {
+      "title": {
+        "ru": "Team Vulpex",
+        "en": "Team Vulpex"
+      },
+      "description": {
+        "ru": "Разработка брендинга для киберспортивной команды",
+        "en": "Create branding for esport team"
+      },
+      "slug": "project-14810109",
+      "category": "graphic",
+      "cover": "b2ee1190-6062-4002-8880-4df11ec6b63c",
+      "coverAlt": "21212-optimized",
+      "blocks": [
+        {
+          "id": "640aefe0-410b-455c-8468-59e9a867ad70",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "25f5fca9-fa6d-4492-80e4-619ed37ea9ca",
+              "alt": "1111",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        }
+      ]
     }
   }
 ]

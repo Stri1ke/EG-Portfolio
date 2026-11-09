@@ -638,10 +638,16 @@ main {
   margin: 32px 0;
   color: var(--portfolio-accent);
 }
-.contact p {
-  font-size: 13px;
-  color: var(--portfolio-text-muted);
-  margin-bottom: 28px;
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+}
+.contact-links a:hover {
+  color: var(--portfolio-accent);
 }
 footer {
   border-top: 1px solid var(--portfolio-border);
