@@ -84,18 +84,22 @@ export function Experience({ language }: { language: Language }) {
                   ))}
                 </ul>
               </div>
-              {studio.name === "Lesta Games" && isOpen && (
-                <div className="studio-details" id={detailsId}>
+              {studio.name === "Lesta Games" && (
+                <div className={`studio-details-wrap${isOpen ? " is-open" : ""}`} id={detailsId} inert={!isOpen}>
+                <div className="studio-details">
                   {language === "ru"
                     ? "В Lesta Games я работал UI/2D-дизайнером над проектами World of Tanks, World of Warships и Tanks Blitz: создавал элементы игрового интерфейса и UI Kit, готовил графику и ассеты для разработчиков, а также визуалы и анимацию для игровых событий и обновлений."
                     : "At Lesta Games, I worked as a UI/2D designer on World of Tanks, World of Warships and Tanks Blitz. I created game interface elements and UI kits, prepared graphics and assets for developers, and produced visuals and animations for in-game events and updates."}
                 </div>
+                </div>
               )}
-              {studio.name === "RedBoon" && isOpen && (
-                <div className="studio-details" id={detailsId}>
+              {studio.name === "RedBoon" && (
+                <div className={`studio-details-wrap${isOpen ? " is-open" : ""}`} id={detailsId} inert={!isOpen}>
+                <div className="studio-details">
                   {language === "ru"
                     ? "В RedBoon работал над Knock on the Coffin Lid: проектировал HUD и индикацию здоровья, интерфейс карты мира и сценарии взаимодействия игрока с ней. Прорабатывал игровые меню, навигацию и пользовательские сценарии, а также участвовал в разработке героев и злодеев, объединяя визуальный дизайн персонажей с игровым опытом."
                     : "At RedBoon, I worked on Knock on the Coffin Lid, designing the HUD and health indicators, the world map interface and its player interactions. I developed game menus, navigation and user flows, and contributed to the design of heroes and villains, connecting character visuals with the player experience."}
+                </div>
                 </div>
               )}
             </article>

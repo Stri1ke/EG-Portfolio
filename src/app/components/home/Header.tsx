@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type Ref } from "react";
 import { siteContent, translate, type Language } from "../../../content/site";
+import { useSitePaths } from "../../../paths";
 
 type HeaderProps = {
   language: Language;
@@ -13,9 +14,11 @@ export function Header({
   onToggleLanguage,
 }: HeaderProps) {
   const content = siteContent.navigation;
+  const { assetUrl } = useSitePaths();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLElement>(null);
   const toggleRef = useRef<HTMLButtonElement>(null);
+  const resumeRef = useRef<HTMLDialogElement>(null);
 
   // Выпадающее меню не модальное: Tab свободно идёт дальше по странице.
   useEffect(() => {
@@ -99,6 +102,17 @@ export function Header({
           {translate(content.work, language)}
         </a>
         <button
+          className="nav-resume"
+          type="button"
+          aria-haspopup="dialog"
+          onClick={() => {
+            setMenuOpen(false);
+            resumeRef.current?.showModal();
+          }}
+        >
+          CV ↗
+        </button>
+        <button
           id="lang"
           onClick={() => {
             onToggleLanguage();
@@ -115,6 +129,22 @@ export function Header({
           {translate(content.contact, language)}
         </a>
       </nav>
+      <dialog ref={resumeRef} className="resume-dialog" aria-labelledby="resume-title">
+        <button
+          className="resume-close"
+          type="button"
+          aria-label={language === "ru" ? "Закрыть" : "Close"}
+          onClick={() => resumeRef.current?.close()}
+        >
+          ×
+        </button>
+        <h2 id="resume-title">{language === "ru" ? "Скачать резюме" : "Download CV"}</h2>
+        <p>{language === "ru" ? "Выберите язык" : "Choose a language"}</p>
+        <div className="resume-options">
+          <a href={assetUrl("cv/Egor_Siriukin_CV_RU.pdf")} download>Русский ↗</a>
+          <a href={assetUrl("cv/Egor_Siriukin_CV_EN.pdf")} download>English ↗</a>
+        </div>
+      </dialog>
     </header>
   );
 }
