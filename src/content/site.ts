@@ -30,7 +30,7 @@ const defaults = {
     // Это видимая специализация под именем. Меняй её здесь, а не в metadata.title.
     role: "Game UI/UX Designer",
     description: {
-      ru: "От логики взаимодействия до визуального характера игры. С опытом в графическом дизайне.",
+      ru: "Проектирую игровые интерфейсы, объединяя продуманный пользовательский опыт, выразительный визуальный стиль и техническую реализацию.",
       en: "From player flows to the visual character of a game. With a background in graphic design.",
     },
     explore: { ru: "Смотреть работы", en: "Explore work" },
