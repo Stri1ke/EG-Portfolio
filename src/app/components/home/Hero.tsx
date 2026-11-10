@@ -37,13 +37,9 @@ export function Hero({
         </div>
       </div>
       <HeroArtwork />
-      <div className="hero-bottom">
-        <span>{content.disciplines}</span>
-        <span className="scroll-hint">
-          {translate(content.scroll, language)}
-        </span>
-      </div>
-      <div className="hero-coordinate">{content.coordinate}</div>
+      <span className="hero-bottom">
+        {translate(content.scroll, language)}
+      </span>
     </section>
   );
 }

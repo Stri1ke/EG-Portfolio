@@ -21,12 +21,10 @@
       "ru": "Связаться ↗",
       "en": "Get in touch ↗"
     },
-    "disciplines": "UI SYSTEMS · PLAYER FLOWS · VISUAL DESIGN",
     "scroll": {
       "ru": "ЛИСТАЙ ВНИЗ ↓",
       "en": "SCROLL TO EXPLORE ↓"
-    },
-    "coordinate": "[ INTERFACE / HUMAN / PLAY ]"
+    }
   },
   "work": {
     "heading": {
@@ -37,21 +35,6 @@
       "ru": "Игровые интерфейсы, системы и визуальные эксперименты.",
       "en": "Game interfaces, systems and visual experiments."
     }
-  },
-  "about": {
-    "heading": {
-      "ru": "Дизайн, в который играют.",
-      "en": "Design you can play."
-    },
-    "description": {
-      "ru": "Специализируюсь на UI/UX для игр. Соединяю понятные сценарии, выразительные интерфейсы и опыт в графическом дизайне.",
-      "en": "I focus on UI/UX for games, combining clear player flows, expressive interfaces and a background in graphic design."
-    },
-    "skills": [
-      "Game UI/UX",
-      "Visual systems",
-      "Graphic design"
-    ]
   },
   "experience": {
     "heading": {

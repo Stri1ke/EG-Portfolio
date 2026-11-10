@@ -95,9 +95,6 @@ export function Header({
         <a href="#work" onClick={() => setMenuOpen(false)}>
           {translate(content.work, language)}
         </a>
-        <a href="#about" onClick={() => setMenuOpen(false)}>
-          {translate(content.about, language)}
-        </a>
         <button
           id="cv"
           className="nav-cv"

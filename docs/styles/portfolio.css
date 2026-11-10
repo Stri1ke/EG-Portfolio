@@ -127,11 +127,9 @@ nav a:hover,
 .index,
 .tiny,
 .hero-bottom,
-.hero-coordinate,
 .tag,
 .demo-note,
 .project-meta,
-.skills,
 footer {
   font-size: 10px;
   letter-spacing: 1.4px;
@@ -214,17 +212,7 @@ h2 {
 .hero-bottom {
   position: absolute;
   bottom: 33px;
-  left: 8%;
   right: 8%;
-  display: flex;
-  justify-content: space-between;
-  color: var(--portfolio-text-muted);
-}
-.hero-coordinate {
-  position: absolute;
-  right: 2%;
-  top: 50%;
-  writing-mode: vertical-rl;
   color: var(--portfolio-text-muted);
 }
 /* Сетка работ, фильтры и карточки проектов */
@@ -254,7 +242,6 @@ main {
   margin: 48px 0 14px;
 }
 .section-heading h2,
-.about h2,
 .contact h2 {
   font-family: Handjet;
   font-size: clamp(50px, 6vw, 84px);
@@ -597,58 +584,54 @@ main {
   width: 100%;
   grid-template-columns: repeat(5, 1fr);
 }
-/* Раздел «Обо мне» */
-.about {
-  padding: 110px 0;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border-bottom: 1px solid var(--portfolio-border);
-  margin-top: 100px;
-  border-top: 1px solid var(--portfolio-border);
-  gap: 40px;
-}
-.about h2 {
-  font-size: 60px;
-  max-width: 650px;
-}
-.about p {
-  color: var(--portfolio-text-muted);
-  line-height: 1.8;
-  font-size: 15px;
-  max-width: 580px;
-}
-.skills {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  letter-spacing: 0;
-  margin-top: 25px;
-}
-.skills span {
-  border: 1px solid var(--portfolio-border);
-  padding: 10px 14px;
-  color: var(--portfolio-text);
-}
 /* Контакты и подвал */
 .contact {
-  padding: 95px 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  padding: 76px 0;
 }
 .contact h2 {
-  font-size: clamp(65px, 9vw, 120px);
-  white-space: pre-line;
-  margin: 32px 0;
-  color: var(--portfolio-accent);
+  margin-top: 12px;
+}
+.contact-details {
+  min-width: 0;
 }
 .contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
   list-style: none;
   padding: 0;
-  margin: 0 0 28px;
+  margin: 0;
 }
-.contact-links a:hover {
+.contact-links li + li {
+  border-top: 1px solid var(--portfolio-border);
+}
+.contact-links a {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 19px 0;
+  font-size: clamp(15px, 2vw, 24px);
+}
+.contact-channel,
+.contact-top {
+  color: var(--portfolio-text-muted);
+  font-size: 12px;
+}
+.contact-address {
+  overflow-wrap: anywhere;
+}
+.contact-links a > :last-child,
+.contact-links a:hover,
+.contact-links a:focus-visible,
+.contact-top:hover,
+.contact-top:focus-visible {
   color: var(--portfolio-accent);
+}
+.contact-top {
+  display: block;
+  width: fit-content;
+  margin: 18px 0 0 auto;
 }
 footer {
   border-top: 1px solid var(--portfolio-border);
@@ -767,16 +750,8 @@ body.modal-open {
     max-width: 330px;
   }
   .hero-bottom {
-    left: 7%;
     right: 7%;
     font-size: 8px;
-  }
-  .hero-bottom > span:first-child {
-    max-width: 170px;
-    line-height: 1.6;
-  }
-  .hero-coordinate {
-    display: none;
   }
   .eyebrow {
     font-size: 8px;
@@ -822,20 +797,13 @@ body.modal-open {
   .demo-note {
     margin-block: 20px 25px;
   }
-  .about {
-    grid-template-columns: 1fr;
-    padding: 50px 0;
-    gap: 28px;
-    margin-top: 65px;
-  }
-  .about h2 {
-    font-size: 48px;
-  }
   .contact {
-    padding: 60px 0;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 52px 0;
   }
   .contact h2 {
-    font-size: 65px;
+    font-size: 50px;
   }
   footer {
     flex-wrap: wrap;
@@ -895,6 +863,7 @@ body.modal-open {
 
 /* Professional experience */
 .experience {
+  margin-top: 64px;
   padding: 95px 0 100px;
   border-bottom: 1px solid var(--portfolio-border);
 }
@@ -903,7 +872,7 @@ body.modal-open {
   grid-template-columns: 1fr 2fr;
   gap: 40px;
   align-items: start;
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 .experience-heading h2 {
   font-family: Handjet;
@@ -918,9 +887,6 @@ body.modal-open {
   font-size: 14px;
   line-height: 1.8;
   margin: 20px 0 0;
-}
-.studio-list {
-  border-top: 1px solid var(--portfolio-border-strong);
 }
 .studio-row {
   display: grid;
@@ -977,6 +943,7 @@ body.modal-open {
 }
 @media (max-width: 750px) {
   .experience {
+    margin-top: 44px;
     padding: 50px 0 55px;
   }
   .experience-heading {
@@ -1135,9 +1102,6 @@ body.modal-open {
     margin-top: 38px;
     transform: none;
     flex-shrink: 0;
-  }
-  .hero-coordinate {
-    display: none;
   }
 }
 

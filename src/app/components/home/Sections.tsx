@@ -1,22 +1,5 @@
 import { siteContent, translate, type Language } from "../../../content/site";
 /** Статические разделы используют один источник текста: content/site.ts. */
-export function About({ language }: { language: Language }) {
-  const content = siteContent.about;
-  return (
-    <section id="about" className="about">
-      <span className="index">{content.index}</span>
-      <div>
-        <h2>{translate(content.heading, language)}</h2>
-        <p>{translate(content.description, language)}</p>
-        <div className="skills">
-          {content.skills.map((skill) => (
-            <span key={skill}>{skill}</span>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 export function Experience({ language }: { language: Language }) {
   const content = siteContent.experience;
   return (
@@ -67,15 +50,33 @@ export function Contact({ language }: { language: Language }) {
   const content = siteContent.contact;
   return (
     <section id="contact" className="contact">
-      <span className="index">{content.index}</span>
-      <h2>{translate(content.heading, language)}</h2>
-      <ul className="contact-links">
-        <li><a href={"mailto:" + content.email}>{content.email}</a></li>
-        <li><a href={"https://t.me/" + content.telegram.replace(/^@/, "")}>{content.telegram}</a></li>
-      </ul>
-      <a className="text-link" href="#home">
-        {translate(content.backToTop, language)}
-      </a>
+      <div className="contact-heading">
+        <span className="index">{content.index}</span>
+        <h2>{translate(content.heading, language)}</h2>
+      </div>
+      <div className="contact-details">
+        <ul className="contact-links">
+          <li>
+            <a href={"mailto:" + content.email}>
+              <span className="contact-channel">
+                {translate(content.emailLabel, language)}
+              </span>
+              <span className="contact-address">{content.email}</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href={"https://t.me/" + content.telegram.replace(/^@/, "")}>
+              <span className="contact-channel">Telegram</span>
+              <span className="contact-address">{content.telegram}</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+        <a className="text-link contact-top" href="#home">
+          {translate(content.backToTop, language)}
+        </a>
+      </div>
     </section>
   );
 }

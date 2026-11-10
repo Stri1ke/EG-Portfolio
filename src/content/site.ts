@@ -20,7 +20,6 @@ const defaults = {
     closeMenu: { ru: "Закрыть меню", en: "Close menu" },
     menuLabel: { ru: "Основное меню", en: "Main navigation" },
     work: { ru: "Работы", en: "Work" },
-    about: { ru: "Обо мне", en: "About" },
     contact: { ru: "Связаться ↗", en: "Contact ↗" },
     homeLabel: { ru: "На главную", en: "Home" },
     resume: "CV",
@@ -36,9 +35,7 @@ const defaults = {
     },
     explore: { ru: "Смотреть работы", en: "Explore work" },
     contact: { ru: "Связаться ↗", en: "Get in touch ↗" },
-    disciplines: "UI SYSTEMS · PLAYER FLOWS · VISUAL DESIGN",
     scroll: { ru: "ЛИСТАЙ ВНИЗ ↓", en: "SCROLL TO EXPLORE ↓" },
-    coordinate: "[ INTERFACE / HUMAN / PLAY ]",
   },
   work: {
     index: "01 / SELECTED WORK",
@@ -63,17 +60,8 @@ const defaults = {
     },
     retry: { ru: "Повторить", en: "Retry" },
   },
-  about: {
-    index: "02 / ABOUT",
-    heading: { ru: "Дизайн, в который играют.", en: "Design you can play." },
-    description: {
-      ru: "Специализируюсь на UI/UX для игр. Соединяю понятные сценарии, выразительные интерфейсы и опыт в графическом дизайне.",
-      en: "I focus on UI/UX for games, combining clear player flows, expressive interfaces and a background in graphic design.",
-    },
-    skills: ["Game UI/UX", "Visual systems", "Graphic design"],
-  },
   experience: {
-    index: "03 / EXPERIENCE",
+    index: "02 / EXPERIENCE",
     heading: { ru: "Опыт в игровой индустрии.", en: "Experience in games." },
     description: {
       ru: "Компании и игры, над которыми я работал.",
@@ -96,10 +84,11 @@ const defaults = {
     ],
   },
   contact: {
-    index: "04 / CONTACT",
+    index: "03 / CONTACT",
     heading: { ru: "Контакты", en: "Contact" },
     email: "e.siriukin@gmail.com",
     telegram: "@jwinsel",
+    emailLabel: { ru: "Почта", en: "Email" },
     backToTop: { ru: "Вернуться наверх ↑", en: "Back to top ↑" },
   },
   footer: {
@@ -121,7 +110,6 @@ export const siteContent = {
   ...defaults,
   hero: { ...defaults.hero, ...home.hero },
   work: { ...defaults.work, ...home.work },
-  about: { ...defaults.about, ...home.about },
   experience: { ...defaults.experience, ...home.experience },
   contact: { ...defaults.contact, ...home.contact },
   footer: { ...defaults.footer, ...home.footer },

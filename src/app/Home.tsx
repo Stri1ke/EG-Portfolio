@@ -4,7 +4,7 @@ import type { Language } from "../content/site";
 import { Header } from "./components/home/Header";
 import { Hero } from "./components/home/Hero";
 import { Work } from "./components/home/Work";
-import { About, Experience, Contact, Footer } from "./components/home/Sections";
+import { Experience, Contact, Footer } from "./components/home/Sections";
 import { ResumeDialog } from "./components/home/ResumeDialog";
 import { useHeroMotion } from "./components/home/useHeroMotion";
 /** Сборка главной страницы. Здесь порядок разделов; сами тексты — в content/site.ts. */
@@ -38,7 +38,6 @@ export default function Home() {
       <Hero language={language} sectionRef={heroRef} contentRef={contentRef} />
       <main id="work">
         <Work language={language} />
-        <About language={language} />
         <Experience language={language} />
         <Contact language={language} />
         <Footer />
