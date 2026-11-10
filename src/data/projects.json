@@ -542,47 +542,5 @@
         ]
       }
     }
-  },
-  {
-    "id": "d69e989f-0f5d-4dcc-8623-91f2ebf58f44",
-    "slug": "project-14810109",
-    "document": {
-      "title": {
-        "ru": "Team Vulpex",
-        "en": "Team Vulpex"
-      },
-      "description": {
-        "ru": "Разработка брендинга для киберспортивной команды",
-        "en": "Create branding for esport team"
-      },
-      "slug": "project-14810109",
-      "category": "graphic",
-      "cover": "b2ee1190-6062-4002-8880-4df11ec6b63c",
-      "coverAlt": "21212-optimized",
-      "blocks": [
-        {
-          "id": "640aefe0-410b-455c-8468-59e9a867ad70",
-          "type": "image",
-          "text": {
-            "ru": "",
-            "en": ""
-          },
-          "images": [
-            {
-              "id": "25f5fca9-fa6d-4492-80e4-619ed37ea9ca",
-              "alt": "1111",
-              "caption": {
-                "ru": "",
-                "en": ""
-              }
-            }
-          ],
-          "url": "",
-          "background": "#101311",
-          "width": "wide",
-          "padding": 40
-        }
-      ]
-    }
   }
 ]
