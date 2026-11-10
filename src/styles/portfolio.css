@@ -959,6 +959,12 @@ footer {
 .studio-identity {
   min-width: 0;
 }
+.studio-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 .studio-role {
   font-size: 12px;
   line-height: 1.65;
@@ -1302,9 +1308,7 @@ footer {
   position: relative;
 }
 .studio-row-expandable .nda-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   margin: 0;
 }
 .studio-row-expandable .studio-projects {
@@ -1376,9 +1380,6 @@ footer {
   .studio-row-expandable .studio-projects,
   .studio-row-expandable .studio-number {
     padding-top: 17px;
-  }
-  .studio-row-expandable .nda-wrap {
-    top: -17px;
   }
   .studio-row-expandable .studio-chevron {
     top: 68px;

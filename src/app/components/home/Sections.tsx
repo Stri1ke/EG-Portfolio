@@ -51,6 +51,8 @@ export function Experience({ language }: { language: Language }) {
               <div className="studio-name">
                 <span className="studio-number">{String(index + 1).padStart(2, "0")}</span>
                 <div className="studio-identity">
+                  <div className="studio-title">
+                  <h3>{studio.name}</h3>
                   {studio.name === "Lesta Games" && (
                     <span className="nda-wrap">
                       <button
@@ -67,7 +69,7 @@ export function Experience({ language }: { language: Language }) {
                       </span>
                     </span>
                   )}
-                  <h3>{studio.name}</h3>
+                  </div>
                   <p className="studio-role">{studio.role}</p>
                 </div>
               </div>
