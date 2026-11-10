@@ -7,7 +7,6 @@ export function Experience({ language }: { language: Language }) {
   return (
     <section id="experience" className="experience" aria-labelledby="experience-title">
       <div className="experience-heading">
-        <span className="index">{content.index}</span>
         <div>
           <h2 id="experience-title">{translate(content.heading, language)}</h2>
           <p>{translate(content.description, language)}</p>

@@ -794,10 +794,6 @@ footer {
   border-bottom: 1px solid var(--portfolio-border);
 }
 .experience-heading {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
-  align-items: start;
   margin-bottom: 28px;
 }
 .experience-heading h2 {
@@ -805,7 +801,6 @@ footer {
   font-weight: 500;
   font-size: clamp(48px, 5vw, 68px);
   line-height: 1;
-  max-width: 650px;
   margin: 0;
 }
 .experience-heading p {
@@ -873,8 +868,6 @@ footer {
     padding: 50px 0 55px;
   }
   .experience-heading {
-    grid-template-columns: 1fr;
-    gap: 28px;
     margin-bottom: 32px;
   }
   .experience-heading h2 {
@@ -1275,5 +1268,58 @@ footer {
   }
   .studio-row-expandable .studio-chevron.is-open {
     top: 80px;
+  }
+}
+
+/* Подсветка карточки с небольшим запасом по бокам. */
+.studio-row-expandable {
+  background-color: transparent;
+  isolation: isolate;
+}
+.studio-row-expandable::before {
+  content: "";
+  position: absolute;
+  inset: 0 -24px;
+  z-index: -1;
+  background: transparent;
+  transition: background-color 0.2s;
+  pointer-events: none;
+}
+.studio-row-expandable:hover,
+.studio-row-expandable:has(.studio-expand:focus-visible) {
+  background-color: transparent;
+}
+.studio-row-expandable:hover::before,
+.studio-row-expandable:has(.studio-expand:focus-visible)::before,
+.studio-row-expandable:has(.studio-expand[aria-expanded="true"])::before {
+  background-color: rgba(255, 255, 255, 0.035);
+}
+
+/* Равная высота карточек и визуальный центр содержимого. */
+@media (min-width: 751px) {
+  .studio-row-expandable,
+  .studio-row-expandable:last-child {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .studio-row-expandable .studio-identity,
+  .studio-row-expandable .studio-projects,
+  .studio-row-expandable .studio-number {
+    padding-top: 17px;
+  }
+  .studio-row-expandable .nda-wrap {
+    top: -17px;
+  }
+  .studio-row-expandable .studio-chevron {
+    top: 92px;
+  }
+  .studio-row-expandable .studio-chevron.is-open {
+    top: 102px;
+  }
+}
+
+@media (max-width: 750px) {
+  .studio-row-expandable::before {
+    inset-inline: -12px;
   }
 }
