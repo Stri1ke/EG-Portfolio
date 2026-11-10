@@ -32,8 +32,8 @@
       "en": "Selected work"
     },
     "description": {
-      "ru": "Игровые интерфейсы, системы и визуальные эксперименты.",
-      "en": "Game interfaces, systems and visual experiments."
+      "ru": "Проектирование игровых интерфейсов: от пользовательских сценариев до готовых UI-систем.",
+      "en": "Game interface design, from player flows to production-ready UI systems."
     }
   },
   "experience": {
@@ -42,8 +42,8 @@
       "en": "Experience in games."
     },
     "description": {
-      "ru": "Компании и игры, над которыми я работал.",
-      "en": "Studios and games I’ve worked on."
+      "ru": "Опыт проектирования интерфейсов и визуальных решений для игровых проектов.",
+      "en": "Experience designing interfaces and visual solutions for games."
     },
     "studios": [
       {

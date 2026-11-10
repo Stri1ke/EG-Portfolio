@@ -110,7 +110,6 @@ export function Contact({ language }: { language: Language }) {
   return (
     <section id="contact" className="contact">
       <div className="contact-heading">
-        <span className="index">{content.index}</span>
         <h2>{translate(content.heading, language)}</h2>
       </div>
       <div className="contact-details">

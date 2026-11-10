@@ -10,15 +10,8 @@ export function Work({ language }: { language: Language }) {
   const content = siteContent.work;
   return (
     <>
-      <div className="section-top">
-        <span className="index">{content.index}</span>
-        <span className="tiny">{translate(content.hint, language)}</span>
-      </div>
       <div className="section-heading">
         <h2>{translate(content.heading, language)}</h2>
-        <span className="count">
-          [ {String(projects.length).padStart(2, "0")} ]
-        </span>
       </div>
       <div className="work-toolbar">
         <p>{translate(content.description, language)}</p>
@@ -33,7 +26,7 @@ export function Work({ language }: { language: Language }) {
               aria-pressed={filter === item.value}
               onClick={() => setFilter(item.value)}
             >
-              {translate(item.label, language)}
+              {translate(item.label, language)}{item.value !== "all" && ` (${projects.filter((project) => project.document.category === item.value).length})`}
             </button>
           ))}
         </div>
