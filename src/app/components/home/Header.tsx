@@ -53,6 +53,7 @@ export function Header({
   }, [menuOpen]);
   return (
     <header ref={headerRef} className={menuOpen ? "menu-open" : ""}>
+      <div className="header-brand">
       <a
         className="brand"
         href="#home"
@@ -61,6 +62,10 @@ export function Header({
       >
         e<span>g</span> /
       </a>
+      <span className="header-status">
+        {language === "ru" ? "Портфолио пополняется — не все проекты ещё оформлены." : "Portfolio in progress — more projects are being prepared."}
+      </span>
+      </div>
       <button
         ref={toggleRef}
         className="menu-toggle"
