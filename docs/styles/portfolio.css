@@ -65,7 +65,7 @@ header.scrolled {
 }
 nav {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   align-items: center;
   font-size: 13px;
 }
@@ -77,11 +77,22 @@ nav a:hover,
   background: none;
   border: 0;
   color: var(--portfolio-text-muted);
-  font-size: 12px;
+  font-size: 13px;
+  padding: 12px 0;
+  line-height: 1;
+  cursor: pointer;
+}
+#lang:hover {
+  color: var(--portfolio-accent);
 }
 .nav-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
   border: 1px solid var(--portfolio-border-strong);
-  padding: 12px 19px;
+  padding: 0 18px;
+  line-height: 1;
 }
 /* Первый экран: имя, специализация, кнопки и фон */
 .hero {
@@ -260,8 +271,10 @@ main {
 .filters button {
   border: 1px solid var(--portfolio-border);
   background: none;
-  font-size: 14px;
-  padding: 14px 20px;
+  height: 38px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0 16px;
   white-space: nowrap;
 }
 .filters button.active {

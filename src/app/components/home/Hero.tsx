@@ -16,10 +16,6 @@ export function Hero({
     <section className="hero" ref={sectionRef}>
       <div className="hero-grid" />
       <div className="hero-content" ref={contentRef}>
-        <div className="eyebrow">
-          <i />
-          <span>{translate(content.eyebrow, language)}</span>
-        </div>
         <h1>{translate(content.name, language)}</h1>
         <h2>
           {content.role}
