@@ -1194,3 +1194,160 @@ body.modal-open {
   height: 100%;
   object-fit: cover;
 }
+
+/* Опыт: NDA и раскрывающееся описание */
+.nda-wrap {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.nda-badge {
+  border: 1px solid var(--portfolio-border-strong);
+  background: var(--portfolio-surface);
+  color: var(--portfolio-text-muted);
+  padding: 5px 8px;
+  font: inherit;
+  font-size: 10px;
+  letter-spacing: 1px;
+  cursor: help;
+}
+.nda-tooltip {
+  position: absolute;
+  z-index: 5;
+  bottom: calc(100% + 10px);
+  left: 0;
+  width: min(280px, 75vw);
+  padding: 12px 14px;
+  background: #20242b;
+  border: 1px solid var(--portfolio-border-strong);
+  color: var(--portfolio-text);
+  font-size: 12px;
+  line-height: 1.5;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.nda-wrap:hover .nda-tooltip,
+.nda-wrap:focus-within .nda-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.studio-row-expandable {
+  position: relative;
+  transition: background-color 0.2s;
+}
+.studio-row-expandable:hover,
+.studio-row-expandable:has(.studio-expand:focus-visible) {
+  background-color: rgba(255, 255, 255, 0.035);
+}
+.studio-row-expandable .nda-wrap {
+  z-index: 2;
+}
+.studio-expand {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--portfolio-text);
+}
+.studio-expand:focus-visible {
+  outline: 2px solid var(--portfolio-accent);
+  outline-offset: -2px;
+}
+.studio-chevron {
+  position: absolute;
+  right: 34px;
+  top: 46px;
+  width: 22px;
+  height: 22px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  color: var(--portfolio-text-muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+.studio-chevron.is-open {
+  transform: rotate(225deg);
+  top: 56px;
+}
+@media (max-width: 750px) {
+  .studio-chevron {
+    right: 16px;
+    top: 36px;
+    width: 16px;
+    height: 16px;
+  }
+  .studio-chevron.is-open {
+    top: 44px;
+  }
+  .studio-row-expandable .studio-projects {
+    padding-right: 42px;
+  }
+}
+.studio-details {
+  grid-column: 2;
+  max-width: 640px;
+  color: var(--portfolio-text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+@media (max-width: 750px) {
+  .studio-details {
+    grid-column: 1;
+  }
+}
+
+/* Одинаковая основа карточек опыта, включая место под метку NDA. */
+.studio-row-expandable,
+.studio-row-expandable:last-child {
+  padding: 38px 0;
+}
+.studio-row-expandable .studio-name,
+.studio-row-expandable .studio-projects {
+  min-height: 110px;
+}
+.studio-row-expandable .studio-identity {
+  padding-top: 34px;
+  position: relative;
+}
+.studio-row-expandable .nda-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+.studio-row-expandable .studio-projects {
+  padding-top: 34px;
+  padding-right: 70px;
+}
+.studio-row-expandable .studio-number {
+  padding-top: 34px;
+}
+.studio-row-expandable .studio-chevron {
+  top: 83px;
+}
+.studio-row-expandable .studio-chevron.is-open {
+  top: 93px;
+}
+@media (max-width: 750px) {
+  .studio-row-expandable,
+  .studio-row-expandable:last-child {
+    padding: 28px 0;
+  }
+  .studio-row-expandable .studio-name,
+  .studio-row-expandable .studio-projects {
+    min-height: 0;
+  }
+  .studio-row-expandable .studio-projects {
+    padding-top: 0;
+    padding-right: 42px;
+  }
+  .studio-row-expandable .studio-chevron {
+    top: 72px;
+  }
+  .studio-row-expandable .studio-chevron.is-open {
+    top: 80px;
+  }
+}
