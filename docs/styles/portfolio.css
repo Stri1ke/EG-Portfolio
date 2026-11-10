@@ -1281,15 +1281,23 @@ footer {
   color: var(--portfolio-text-muted);
   font-size: 14px;
   line-height: 1.7;
+  transition: padding-top 0.45s ease-in-out;
+}
+.studio-details-wrap.is-open .studio-details {
+  padding-top: 40px;
 }
 @media (max-width: 750px) {
   .studio-details-wrap {
     grid-column: 1;
   }
+  .studio-details-wrap.is-open .studio-details {
+    padding-top: 22px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .studio-chevron,
-  .studio-details-wrap {
+  .studio-details-wrap,
+  .studio-details {
     transition: none;
   }
 }
@@ -1298,13 +1306,14 @@ footer {
 .studio-row-expandable,
 .studio-row-expandable:last-child {
   padding: 38px 0;
+  row-gap: 0;
 }
 .studio-row-expandable .studio-name,
 .studio-row-expandable .studio-projects {
-  min-height: 110px;
+  min-height: 0;
 }
 .studio-row-expandable .studio-identity {
-  padding-top: 34px;
+  padding-top: 0;
   position: relative;
 }
 .studio-row-expandable .nda-wrap {
@@ -1312,22 +1321,23 @@ footer {
   margin: 0;
 }
 .studio-row-expandable .studio-projects {
-  padding-top: 34px;
+  padding-top: 0;
   padding-right: 70px;
 }
 .studio-row-expandable .studio-number {
-  padding-top: 34px;
+  padding-top: 0;
 }
 .studio-row-expandable .studio-chevron {
-  top: 83px;
+  top: 49px;
 }
 .studio-row-expandable .studio-chevron.is-open {
-  top: 93px;
+  top: 59px;
 }
 @media (max-width: 750px) {
   .studio-row-expandable,
   .studio-row-expandable:last-child {
     padding: 28px 0;
+    row-gap: 0;
   }
   .studio-row-expandable .studio-name,
   .studio-row-expandable .studio-projects {
@@ -1336,12 +1346,13 @@ footer {
   .studio-row-expandable .studio-projects {
     padding-top: 0;
     padding-right: 42px;
+    margin-top: 22px;
   }
   .studio-row-expandable .studio-chevron {
-    top: 72px;
+    top: 38px;
   }
   .studio-row-expandable .studio-chevron.is-open {
-    top: 80px;
+    top: 46px;
   }
 }
 
@@ -1379,13 +1390,13 @@ footer {
   .studio-row-expandable .studio-identity,
   .studio-row-expandable .studio-projects,
   .studio-row-expandable .studio-number {
-    padding-top: 17px;
+    padding-top: 0;
   }
   .studio-row-expandable .studio-chevron {
-    top: 68px;
+    top: 51px;
   }
   .studio-row-expandable .studio-chevron.is-open {
-    top: 78px;
+    top: 61px;
   }
 }
 
