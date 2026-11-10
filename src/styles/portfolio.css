@@ -642,65 +642,6 @@ footer {
   font-size: 9px;
   gap: 20px;
 }
-/* Окно резюме */
-dialog {
-  color: var(--portfolio-text);
-  background: var(--portfolio-surface);
-  border: 1px solid var(--portfolio-border-strong);
-  width: min(1000px, 90vw);
-  max-height: 88svh;
-  padding: 40px;
-}
-dialog::backdrop {
-  background: #000c;
-  backdrop-filter: blur(9px);
-}
-dialog .art {
-  max-height: 420px;
-}
-dialog h2 {
-  font-family: Handjet;
-  font-size: 60px;
-  margin: 30px 0 15px;
-}
-dialog p {
-  color: var(--portfolio-text-muted);
-  line-height: 1.7;
-  font-size: 14px;
-}
-.close {
-  position: absolute;
-  right: 12px;
-  top: 6px;
-  font-size: 32px;
-  background: none;
-  border: 0;
-  z-index: 3;
-}
-.case-body {
-  padding-top: 15px;
-}
-.case-status {
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: var(--portfolio-accent);
-}
-.case-details {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  border-block: 1px solid var(--portfolio-border);
-  margin: 25px 0;
-  padding: 20px 0;
-}
-.case-details small {
-  display: block;
-  color: var(--portfolio-text-muted);
-  margin-bottom: 8px;
-}
-body.modal-open {
-  overflow: hidden;
-}
 /* Анимации */
 @keyframes blink {
   50% {
@@ -843,21 +784,6 @@ body.modal-open {
   .hero-content {
     transform: none !important;
     opacity: 1 !important;
-  }
-}
-
-.nav-cv {
-  padding: 0;
-  border: 0;
-  background: none;
-  font-size: 13px;
-}
-.nav-cv:hover {
-  color: var(--portfolio-accent);
-}
-@media (max-width: 750px) {
-  .nav-cv {
-    font-size: 11px;
   }
 }
 

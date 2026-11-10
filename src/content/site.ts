@@ -22,7 +22,6 @@ const defaults = {
     work: { ru: "Работы", en: "Work" },
     contact: { ru: "Связаться ↗", en: "Contact ↗" },
     homeLabel: { ru: "На главную", en: "Home" },
-    resume: "CV",
   },
   hero: {
     eyebrow: { ru: "ПОРТФОЛИО", en: "PORTFOLIO" },
@@ -94,15 +93,6 @@ const defaults = {
   footer: {
     signature: "EGOR / GAME UI/UX",
     year: "2026",
-  },
-  resume: {
-    status: "CV / EGOR",
-    heading: { ru: "Резюме", en: "Résumé" },
-    description: {
-      ru: "Файл резюме пока не добавлен.",
-      en: "The résumé file has not been added yet.",
-    },
-    close: { ru: "Закрыть", en: "Close" },
   },
 };
 

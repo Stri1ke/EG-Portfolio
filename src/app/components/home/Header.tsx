@@ -5,14 +5,12 @@ type HeaderProps = {
   language: Language;
   headerRef: Ref<HTMLElement>;
   onToggleLanguage: () => void;
-  onOpenResume: () => void;
 };
 /** Верхнее меню. Состоянием языка управляет Home, поэтому вся страница меняется одновременно. */
 export function Header({
   language,
   headerRef,
   onToggleLanguage,
-  onOpenResume,
 }: HeaderProps) {
   const content = siteContent.navigation;
   const [menuOpen, setMenuOpen] = useState(false);
@@ -95,18 +93,6 @@ export function Header({
         <a href="#work" onClick={() => setMenuOpen(false)}>
           {translate(content.work, language)}
         </a>
-        <button
-          id="cv"
-          className="nav-cv"
-          aria-haspopup="dialog"
-          aria-controls="case"
-          onClick={() => {
-            setMenuOpen(false);
-            onOpenResume();
-          }}
-        >
-          {content.resume}
-        </button>
         <button
           id="lang"
           onClick={() => {
