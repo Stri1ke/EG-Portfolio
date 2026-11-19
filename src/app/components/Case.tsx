@@ -156,14 +156,19 @@ function CaseBlock({
     return <RichText value={translate(block.text, language)} />;
   if (block.type === "divider") return <hr />;
   if (block.type === "video") {
-    const embed = videoEmbed(block.url);
+    const embed = videoEmbed(block.url, block.vimeoLoop);
+    const loop = embed !== null && new URL(embed).searchParams.get("background") === "1";
     return embed ? (
       <iframe
         src={embed}
         title={title + " — video"}
         loading="lazy"
-        allow="fullscreen; picture-in-picture"
-        allowFullScreen
+        allow={
+          loop
+            ? "autoplay; fullscreen 'none'; picture-in-picture 'none'"
+            : "fullscreen; picture-in-picture"
+        }
+        allowFullScreen={!loop}
       />
     ) : null;
   }

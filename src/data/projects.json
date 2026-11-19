@@ -542,5 +542,382 @@
         ]
       }
     }
+  },
+  {
+    "id": "7edbd0ce-c9c5-483f-abdd-757a9a277dff",
+    "slug": "project-ab74a055",
+    "document": {
+      "title": {
+        "ru": "Team Vulpex",
+        "en": "Team Vulpex"
+      },
+      "description": {
+        "ru": "Брендинг",
+        "en": "Branding"
+      },
+      "slug": "project-ab74a055",
+      "category": "ui",
+      "cover": "46fca9a3-9534-4021-ba88-22e5b6b9056f",
+      "coverAlt": "3232323",
+      "blocks": [
+        {
+          "id": "0b3acf45-6f23-40e4-af1d-78e787dee951",
+          "type": "text",
+          "text": {
+            "ru": "В рамках проекта была создана визуальная айдентика киберспортивной команды Team Vulpex с акцентом на узнаваемость, масштабируемость и соревновательную среду. В основе — геометричный эмблемный знак, объединяющий силуэт лисы и V-образную форму, формируя сильный и запоминаемый бренд-акцент. Контраст чёрного и насыщенного красного усиливает ощущение напряжения, а фирменный паттерн, производный от логотипа, добавляет глубину системе. Айдентика адаптирована для формы, player-визуалов и digital-платформ, обеспечивая целостное и консистентное присутствие бренда.",
+            "en": "A visual identity was developed for the esports team Team Vulpex, focused on recognizability, scalability, and competitive performance. At its core is a geometric emblem combining a fox silhouette with a V-shaped form, creating a strong and memorable brand accent. The contrast of black and deep red enhances tension, while a logo-derived pattern adds depth to the system. The identity was adapted for jerseys, player visuals, and digital platforms, ensuring a cohesive and consistent brand presence."
+          },
+          "images": [],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 40
+        },
+        {
+          "id": "8ad0e187-e610-44a1-bf99-44e2506f9144",
+          "type": "video",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [],
+          "url": "https://vimeo.com/manage/videos/1165416001",
+          "vimeoLoop": true,
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "c940993a-9e98-4d01-95e8-41c2ec24f4ce",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "ac0e7140-a20c-4540-b85c-23787ad93036",
+              "alt": "image_01",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "44e4d02a-931d-4863-9b35-a6a9876879bb",
+          "type": "video",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [],
+          "url": "https://vimeo.com/manage/videos/1163392762",
+          "vimeoLoop": true,
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "38961f00-0ae2-491b-8474-15d26acd9949",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "8224639d-4b0d-4e7a-a6d1-edba3bb24cfb",
+              "alt": "image_02",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "aebf563a-f519-4d85-a8de-5da39249c6f1",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "a598e459-3a23-4e12-b181-a78f64514038",
+              "alt": "image_03",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "5242d156-5c77-4d57-9780-9cca84a05e84",
+              "alt": "image_04",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "b8cdad86-e326-4a3b-b253-85947828f479",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "070f242a-8d0c-46ec-ab38-cd270cd66f1e",
+              "alt": "image_05",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "368208ed-1f4b-4944-8a23-c8a4f70c415b",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "30cbb103-a643-4128-9952-e10084c9f76f",
+              "alt": "image_06",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "dfbb3b23-7546-4144-8408-05af96529676",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "667d94be-95c2-4c24-8036-61a56c53aef0",
+              "alt": "image_07",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "c1e1a9ec-9a7b-4a3d-9755-95e9cbb4dc01",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "5bcae0b9-78b9-45f2-af44-74dfd2c9730b",
+              "alt": "image_08",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "9575a985-36a1-488a-8382-e9b48fecc8dc",
+              "alt": "image_09",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "c36b6998-ba56-4235-a958-4c6d1d24a815",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "c266b79f-c237-434b-94ef-7ea9864c2244",
+              "alt": "image_10",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "3d853830-57b9-4d0c-91ba-718696142c94",
+          "type": "video",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [],
+          "url": "https://vimeo.com/manage/videos/1165118389",
+          "vimeoLoop": true,
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "c7b34c14-b4c5-4ed5-92bd-1580ecc237bc",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "26b18fbb-2383-45be-a667-3cf760ab3fa9",
+              "alt": "image_11",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "687fb997-dd8e-49c2-940b-bc77fce0fb19",
+          "type": "gallery",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "abfc6066-8aea-4a90-8191-769024e48e67",
+              "alt": "image_12",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "fc139332-50d6-4ced-8984-4add7a3018b5",
+              "alt": "image_13",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "4a7e5dff-a02f-4659-bfa4-2339aa3dafc3",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "7f04667b-426a-4c3f-8055-a93ddbf8ce77",
+              "alt": "image_14",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "65433c4e-ce70-4c38-a28e-4e725e712b98",
+          "type": "image",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [
+            {
+              "id": "6f56c7c0-cdf7-4ebf-ad0f-3b3b8da1f6d8",
+              "alt": "image_15",
+              "caption": {
+                "ru": "",
+                "en": ""
+              }
+            }
+          ],
+          "url": "",
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        },
+        {
+          "id": "1919dc7c-5f96-4ea7-a466-7fcc95e389d7",
+          "type": "video",
+          "text": {
+            "ru": "",
+            "en": ""
+          },
+          "images": [],
+          "url": "https://vimeo.com/manage/videos/1164411111",
+          "vimeoLoop": true,
+          "background": "#101311",
+          "width": "wide",
+          "padding": 0
+        }
+      ]
+    }
   }
 ]

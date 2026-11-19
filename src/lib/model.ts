@@ -19,6 +19,7 @@ export type Block = {
   text: Localized;
   images: BlockImage[];
   url: string;
+  vimeoLoop?: boolean;
   background: string;
   width: "normal" | "wide" | "full";
   padding: number;
@@ -36,7 +37,7 @@ export type Document = {
 };
 export type PublicProject = { id: string; slug: string; document: Document };
 
-export function videoEmbed(value: string): string | null {
+export function videoEmbed(value: string, vimeoLoop = false): string | null {
   try {
     const url = new URL(value);
     if (url.protocol !== "https:") return null;
@@ -53,9 +54,14 @@ export function videoEmbed(value: string): string | null {
     if (
       ["vimeo.com", "www.vimeo.com", "player.vimeo.com"].includes(url.hostname)
     ) {
-      const numericId = url.pathname.split("/").filter(Boolean).pop();
-      if (numericId && /^\d+$/.test(numericId))
-        return "https://player.vimeo.com/video/" + numericId;
+      const unlisted = url.pathname.match(/^\/(\d+)\/([a-z0-9]+)\/?$/i);
+      const numericId = unlisted?.[1] ?? url.pathname.split("/").filter(Boolean).pop();
+      if (!numericId || !/^\d+$/.test(numericId)) return null;
+      const embed = new URL("https://player.vimeo.com/video/" + numericId);
+      const hash = url.searchParams.get("h") ?? unlisted?.[2];
+      if (hash && /^[a-z0-9]+$/i.test(hash)) embed.searchParams.set("h", hash);
+      if (vimeoLoop) embed.searchParams.set("background", "1");
+      return embed.href;
     }
     return null;
   } catch {
